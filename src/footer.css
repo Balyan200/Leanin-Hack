@@ -1,0 +1,11 @@
+.foot{
+    background-color: rgb(74, 177, 250);
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.foot p{
+    padding-top: 10px;
+}

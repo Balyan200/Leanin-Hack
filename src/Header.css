@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    padding: 1px 5px;
+    /* background-color: rgb(195, 255, 255); */
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+}
+.logo img{
+    /* display: inline; */
+    /* margin: 2px 8px; */
+    height: 50px;
+    border-radius: 100%; 
+}
+.login img{
+    height: 30px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 15px;
+    align-items: center;
+   
+}
+ul li{
+    justify-content: space-between;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    color: rgb(12, 12, 12);
+}
+nav li:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+

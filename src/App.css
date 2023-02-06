@@ -1,11 +1,14 @@
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background: rgb(126,163,255);
+  background: radial-gradient(circle, rgb(161, 204, 254) 0%, rgb(182, 229, 255) 35%, rgba(255,255,255,1) 100%);
+  overscroll-behavior: none;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Bree Serif', serif, 'Fira Sans','Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

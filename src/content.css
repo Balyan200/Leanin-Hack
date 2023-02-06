@@ -1,0 +1,70 @@
+.about{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.vision{
+    padding: 10px;
+    display: flex;
+    height: 425px;
+    width: 100%;
+}
+.vision img{
+    justify-self: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+}
+.viscontent{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.vision h1, .work h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 58px;
+    display: block;
+    position: relative;
+    /* color: aliceblue; */
+   
+}
+ .vision p, .work p{
+    display: block;
+    width: 60%;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 22px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.workcontent{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+   
+}
+.work img{
+    width: 400px;
+    border-radius: 20%;
+}
+.workcontent p{
+    vertical-align: center;
+    
+}
