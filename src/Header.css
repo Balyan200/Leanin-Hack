@@ -1,17 +1,26 @@
 nav{
     display: flex;
     padding: 1px 5px;
-    /* background-color: rgb(195, 255, 255); */
-    position: static;
+    background-color: rgba(249, 254, 254, 0.251);
+    position: fixed;
+    z-index: 100;
     justify-content: space-between;
     align-items: center;
     top: 0px;
+    font-weight: 800;
+    width: 100%;
+}
+.logo{
+    background-size: cover;
+    background-color: rgba(240, 248, 255, 0);
 }
 .logo img{
     /* display: inline; */
     /* margin: 2px 8px; */
     height: 50px;
     border-radius: 100%; 
+    
+    
 }
 .login img{
     height: 30px;

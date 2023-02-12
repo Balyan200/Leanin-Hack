@@ -12,7 +12,7 @@ const Carousels = () => {
                     <div className="slide">
                         <h1>Join us as Driver</h1>
                         <p>Login to experience a new world of confidence and independence.</p>
-                        <button className=""> Login</button>
+                        <button className="car-btn"> Login</button>
                     </div>
                 </div>
                   <a href="#carousel__slide4"
@@ -27,9 +27,9 @@ const Carousels = () => {
                   className="carousel__slide" style={{  backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
                 <div className="carousel__snapper">
                     <div className="slide">
-                        <h1>Login to know more</h1>
+                        <h1>Register Now</h1>
                         <p>Look upon ways of safe travel with SheSafe.</p>
-                        <button class="">Login</button>
+                        <button className="car-btn">Login</button>
                     </div>
                 </div>
                 <a href="#carousel__slide1"
@@ -44,7 +44,7 @@ const Carousels = () => {
                     <div className="slide">
                         <h1>Find my walkmate</h1>
                         <p>Join our Chatbuddy to get in contact with a walkmate and make new friends on way.</p>
-                        <button class="">Know More</button>
+                        <button className="car-btn">Know More</button>
                     </div>
                 </div>
                 <a href="#carousel__slide2"
@@ -54,12 +54,12 @@ const Carousels = () => {
               </li>
               <li id="carousel__slide4"
                   tabindex="0"
-                  className="carousel__slide">
+                  className="carousel__slide" style={{  backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
                 <div className="carousel__snapper">
                     <div className="slide">
-                        <h1>Coming soon</h1>
-                        <p>"Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence."-Helen Keller</p>
-                        <button class="">Know More</button>
+                        <h1>Track my Girl</h1>
+                        <p>Track the location of your loved ones easily!</p>
+                        <button className="car-btn">Know More</button>
                     </div>
                 </div>
                 <a href="#carousel__slide3"

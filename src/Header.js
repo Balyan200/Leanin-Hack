@@ -1,11 +1,11 @@
 import React from 'react'
 import './Header.css'
-import leaninlogo from './Images//leaninlogo.png'
+import logo from './Images//logo.png'
 
 const Header = () => {
   return (
     <nav>
-        <div className='logo'><img src={leaninlogo} alt="logo"/></div>
+        <div className='logo'><img src={logo} alt="logo"/></div>
         <ul className="navbar">
             <li><a href="http://">About Us</a>
             </li>
